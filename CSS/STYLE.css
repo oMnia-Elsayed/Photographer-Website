@@ -100,7 +100,7 @@
 .share:hover , .pre:hover , .next:hover , .touch:hover
 { text-shadow: 1px 1px; }
 
-.fill:hover , .dott:hover , .insta_image:hover , .find:hover , .submit:hover , .name:hover , .email:hover 
+.fill:hover , .dott:hover , .insta_image:hover , .find:hover  
 {  
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
