@@ -1,0 +1,355 @@
+/* Start Global */
+ *
+ {
+ 	padding: 0;
+ 	margin: 0;	
+ 	box-sizing: border-box;	
+ }
+.clear { clear: both; }
+
+/* End Global */ 
+ 
+/* //////////////////////////////////////////////// */
+
+/* Start Header */
+.container 
+{
+    position: relative;
+    text-align: center;  
+}
+.welcome_img 
+{
+	width: 96%;
+	display : block;
+	margin: 50px 30px;
+}
+.top_left 
+{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    color: #af4d1b;
+    font-size: 30px;
+    font-family: Script MT Bold;
+}
+
+.centered
+{
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    font-family: Script MT Bold;
+    color: #af4d1b;
+}
+.leslie
+{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: Yu Gothic UI;
+    color: #5e3116;
+    text-transform: uppercase;
+}
+.top_right 
+{
+	position: absolute;
+    top: 7%;
+    left: 80%;
+}
+.dott
+{
+	height: 35px;
+    width: 35px;
+    border: 2px solid #3c0300;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+.res_image 
+{
+	height: 20px;
+	width: 20px;
+	top: 8%;
+    left: 80%; 
+    margin: 5px;
+}
+
+.bottom
+{
+    position: absolute;
+    bottom: 8px;
+    left: 620px;
+}
+.dot 
+{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #3c0300;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.fill { background-color: #3c0300; }
+
+.centered:hover , .leslie:hover , .top_left:hover , .quote:hover ,.random_text:hover , .text:hover , 
+.share:hover , .pre:hover , .next:hover , .touch:hover
+{ text-shadow: 1px 1px; }
+
+.fill:hover , .dott:hover , .insta_image:hover , .find:hover , .submit:hover , .name:hover , .email:hover 
+{  
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+.seperated_image:hover  , .message:hover 
+{ 
+    -ms-transform: scale(0.97); /* IE 9 */
+    -webkit-transform: scale(0.97); /* Safari 3-8 */
+    transform: scale(0.97);
+}
+
+.t_image:hover , .i_image:hover , .p_image:hover
+{ 
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+/* end Header */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////
+
+/* Start Main Body */
+.description 
+{
+	position: relative;
+    text-align: center;
+}
+.insta_image 
+{
+	width: 100px;
+	height: 100px;
+	margin: 5px 10px 10px 10px;
+}
+.random_text
+{
+	margin-bottom: 50px;
+	font-size: 30px;
+    font-family: Yu Gothic UI;
+    color: #af4d1b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.text
+{
+	text-align: justify;
+	font-family: Yu Gothic UI;
+    color: #af4d1b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px 300px;
+}
+.quote_image
+{
+	width: 96%;
+	height: 500px;
+	margin: 50px 30px;
+}
+.quote
+{
+	position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: Script MT Bold;
+    color: #af4d1b;
+}
+.general
+{
+    display : flex;
+    width : 33.33%;
+    margin: 0 10px 0 130px;
+}
+.seperated_image
+{
+	width: 80%;
+	height: 300px;
+	margin: 0px 5px 0 5px;
+}
+.sun { position: relative;}
+.sun_image
+{
+	width: 81%;
+	height: 200px;
+	margin: 10px 30px 10px 135px;
+	display: block;	
+
+}
+.share 
+{ 
+	position: absolute; 
+	text-align: center;
+	top: 30px;
+    left: 170px;
+    font-family: Yu Gothic UI;
+    font-size: 20px;
+    color: #d2e1e4;
+}
+.common 
+{
+	position: absolute; 
+	text-align: center;
+    height: 20px;
+	width: 20px;
+    left: 180px;
+}
+
+.t_image { top: 70px; }
+.i_image { top: 100px; }
+.p_image { top: 130px; }
+
+.pre
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 150px; 
+	font-family: Yu Gothic UI;
+    font-size: 30px;
+    color: #af4d1b;
+}
+.next
+{
+	float: right;
+	margin-top: 10px;
+	margin-right: 140px; 
+	font-family: Yu Gothic UI;
+    font-size: 30px;
+    color: #af4d1b;
+}
+/* End Main Body */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////
+
+/* Start Footer */
+.handle { margin-top: 70px; }
+
+.find
+{
+	height: 85px;
+    width: 85px;
+    background-color: #d9ba8e;
+    border: 2px solid #d9ba8e;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 35px 0 0px;
+}
+.image
+{
+	height: 35px;
+	width: 35px;
+	top: 30%;
+    left: 80%; 
+    margin: 20px;
+}
+.find_image
+{
+	width: 96%;
+	height: 300px;
+	margin: 20px 30px 0 30px;
+}
+.final_img
+{
+	width: 96%;
+	filter: blur(1px);
+	display : block;
+	margin: 0px 30px;
+}
+.touch
+{
+	position: absolute; 
+	text-align: center;
+	top: 50px;
+    left: 300px;
+    font-family: Yu Gothic UI;
+    font-size: 30px;
+    color: #b6ac77;	
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.opcity
+{
+	background-color: #b6ac77;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    filter: opacity(0.5);
+    text-align: left; 
+    font-family: Yu Gothic UI;
+    padding: 8px 28px;
+    position: absolute;
+}
+.name
+{
+	width: 380px;
+	height: 40px;
+    top: 180px;
+    left: 230px;
+  
+}
+.email
+{
+	width: 380px;
+	height: 40px;
+    top: 180px;
+    left: 750px;
+   
+}
+.message
+{
+	width: 900px;
+	height: 300px;
+    top: 280px;
+    left: 230px;
+}
+.submit
+{
+	width: 350px;
+	height: 40px;
+	top: 650px;
+    left: 530px;
+    color: #b6ac77;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center; 
+    font-family: Yu Gothic UI;
+    padding: 8px 28px;
+    position: absolute;
+    border: 2px solid #b6ac77;
+}
+.line 
+{
+    width:50%;
+    position: absolute;
+	background-color: #b6ac77;
+	color: #7d97ad;
+	top: 800px;
+    left: 350px;
+    height: 3px;
+}
+footer
+{
+	top: 830px;
+    left: 430px;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center; 
+    font-family: Yu Gothic UI;
+    color: #b5cdbf;
+}
+/* End Footer */
